@@ -1,48 +1,18 @@
-# Backend Prueba Bus
+# Frontend Prueba Bus
 
-Este es el backend de una API de buses, donde se implementaron métodos que responden a solicitudes **GET** (para listar buses o utilizar parámetros) y **POST** (para ingresar datos de prueba). Además, se implementó un método **DELETE** para eliminar registros de buses. La autenticación básica está habilitada solo para **DELETE**, y puede ser probada usando **Postman**.
+Este es un frontend básico de la aplicación de gestión de buses, que consume el servicio de bus para mostrar los datos en una tabla. Permite realizar operaciones de lectura sobre los datos de los buses. La interfaz de usuario interactúa con la API de buses a través de solicitudes HTTP, como GET para obtener los buses
 
 ## Requisitos
-Se uso spring tool suite como ide,
-version 17 de java,
-version 3 de spring
+- Utilizar React 18 o superior
+- Manejo de estado de la aplicación con useState.
+- Fetching de datos con la función fetch y useEffect.
+- Node.js (Versión 14 o superior)
+- Subir los cambios a un repositorio remoto.
+- npm (Node Package Manager)
 
-## Para ingresar datos en postman
+## NOTA
 
-1. Para ingresar datos(Post) en postman:
-  ```bash
-   http://localhost:8080/bus
-   ```
+...
 
-   ```bash
-   {
-    "numero": "18",
-    "placa": "BCD-456",
-    "caracteristicas": "Bus con WiFi ",
-    "marca": {
-        "idMarca": 2
-    },
-    "activo": true
-}
-   ```
-2. Para probar el get:
-   ```bash
-   http://localhost:8080/bus
-   ```
 
-3. Para probar el get con parametro:
-   ```bash
-   http://localhost:8080/bus/1
-   ```
-
-4. Para probar eliminacion con parametro:
-   ```bash
-   http://localhost:8080/bus/1
-   ```
-
-## NOTA IMPORTANTE
-
-Para hacer delete se usa :
-Username : jhon
-Password : 1234
 
