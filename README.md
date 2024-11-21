@@ -10,8 +10,9 @@ Este es un frontend básico de la aplicación de gestión de buses, que consume 
 - Subir los cambios a un repositorio remoto.
 - npm (Node Package Manager)
 
-## NOTA
-
+## Nota para Ejecutar
+En consola, ejecutar npm start.
+La URL será: http://localhost:3000/.
 ...
 
 
