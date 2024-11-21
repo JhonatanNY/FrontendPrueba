@@ -3,9 +3,9 @@
 Este es el backend de una API de buses, donde se implementaron métodos que responden a solicitudes **GET** (para listar buses o utilizar parámetros) y **POST** (para ingresar datos de prueba). Además, se implementó un método **DELETE** para eliminar registros de buses. La autenticación básica está habilitada solo para **DELETE**, y puede ser probada usando **Postman**.
 
 ## Requisitos
-Se uso spring tool suite como ide
-version 17 de java
-version 3
+Se uso spring tool suite como ide,
+version 17 de java,
+version 3 de spring
 
 ## Para ingresar datos en postman
 
