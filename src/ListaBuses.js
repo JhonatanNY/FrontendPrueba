@@ -6,7 +6,7 @@ function ListaBuses() {
 
 
   useEffect(() => {
-    fetch('http://localhost:8080/bus')
+    fetch('https://servidor-bus-api.onrender.com/bus')
       .then((response) => response.json())
       .then((data) => {
         setBuses(data);  

@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <ListaBuses /> {/* Renderiza el componente de la lista de buses */}
+      <ListaBuses /> 
     </div>
   );
 }
